@@ -19,7 +19,7 @@ source = './TEST VIDEOS/5 disks/3.mp4'    # WEG ZUM VIDEO
 #section: evaluation
 start = perf_counter()
 
-models = [YOLO(f'./tsd/d{i+1}.pt') for i in range(7)]
+models = [YOLO(f'./tsd/d{i+1}n.pt') for i in range(7)]
 
 cap = cv2.VideoCapture(source)
 fps = cap.get(cv2.CAP_PROP_FPS)
