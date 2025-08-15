@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['disk1', 'disk2', 'disk3', 'disk4', 'disk5', 'disk6', 'disk7']
+
+roboflow:
+  workspace: hanoi1
+  project: hanoi
+  version: 2
+  license: CC BY 4.0
