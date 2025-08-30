@@ -23,7 +23,7 @@ try:
                 continue
             image = cv2.imread(file.path)
             cv2.imshow(imgName, image)
-            cv2.waitKey()
+            cv2.waitKey(1)
 
             result = input('enter classes:')
             results.write(f'{imgName} {result}\n')
