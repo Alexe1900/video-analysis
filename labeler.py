@@ -13,7 +13,7 @@ isClass.close()
 
 directory = './DATASETS/ownHanoi/images'
 
-results = open('./newclasses.txt', 'a')
+results = open('./classes.txt', 'a')
 
 try:
     for file in os.scandir(directory):
