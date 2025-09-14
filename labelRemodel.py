@@ -1,5 +1,3 @@
-import os
-
 classes = open('./classes.txt', 'r')
 newClasses = open('./newclasses.txt', 'a')
 
