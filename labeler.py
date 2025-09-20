@@ -22,7 +22,8 @@ try:
             if imgName in classified:
                 continue
             image = cv2.imread(file.path)
-            cv2.imshow(imgName, image)
+            resImage = cv2.resize(image, (640, 640))
+            cv2.imshow(imgName, resImage)
             cv2.waitKey(1)
 
             result = input('enter classes:')
